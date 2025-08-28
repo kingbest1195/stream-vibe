@@ -1,0 +1,193 @@
+- generic [ref=e2]:
+  - navigation [ref=e3]:
+    - generic [ref=e4]:
+      - img "StreamVibe" [ref=e6]
+      - navigation [ref=e7]:
+        - link "Home" [ref=e8] [cursor=pointer]:
+          - /url: "#"
+        - link "Movies & Shows" [ref=e9] [cursor=pointer]:
+          - /url: "#"
+        - link "Support" [ref=e10] [cursor=pointer]:
+          - /url: "#"
+        - link "Subscriptions" [ref=e11] [cursor=pointer]:
+          - /url: "#"
+      - generic [ref=e12]:
+        - img [ref=e14] [cursor=pointer]
+        - img [ref=e17] [cursor=pointer]
+  - generic [ref=e23]:
+    - generic [ref=e24]:
+      - heading "Kantara" [level=1] [ref=e25]
+      - paragraph [ref=e26]: A fiery young man clashes with an unflinching forest officer in a south Indian village where spirituality, fate and folklore rule the lands.
+    - generic [ref=e27]:
+      - link "Play Now" [ref=e28] [cursor=pointer]:
+        - /url: "#"
+        - img [ref=e29] [cursor=pointer]
+        - text: Play Now
+      - generic [ref=e31]:
+        - button [ref=e32] [cursor=pointer]:
+          - img [ref=e33] [cursor=pointer]
+        - button [ref=e35] [cursor=pointer]:
+          - img [ref=e36] [cursor=pointer]
+        - button [ref=e38] [cursor=pointer]:
+          - img [ref=e39] [cursor=pointer]
+  - generic [ref=e43]:
+    - generic [ref=e44]:
+      - generic [ref=e46]:
+        - generic [ref=e47]: Description
+        - generic [ref=e48]: A fiery young man clashes with an unflinching forest officer in a south Indian village where spirituality, fate and folklore rule the lands.
+      - generic [ref=e51]:
+        - generic [ref=e52]: Cast
+        - generic [ref=e53]:
+          - button [ref=e54] [cursor=pointer]:
+            - img [ref=e55] [cursor=pointer]
+          - button [ref=e57] [cursor=pointer]:
+            - img [ref=e58] [cursor=pointer]
+      - generic [ref=e70]:
+        - generic [ref=e71]:
+          - generic [ref=e72]: Reviews
+          - button "Add Your Review" [ref=e73] [cursor=pointer]:
+            - img [ref=e74] [cursor=pointer]
+            - text: Add Your Review
+        - generic [ref=e76]:
+          - generic [ref=e77]:
+            - generic [ref=e78]:
+              - generic [ref=e79]:
+                - generic [ref=e80]: Aniket Roy
+                - generic [ref=e81]: From India
+              - generic [ref=e82]:
+                - generic [ref=e83]: ★★★★☆
+                - generic [ref=e84]: "4.5"
+            - generic [ref=e85]: This movie was recommended to me by a very dear friend who went for the movie by herself. I went to the cinemas to watch but had a houseful board so couldn't watch it.
+          - generic [ref=e86]:
+            - generic [ref=e87]:
+              - generic [ref=e88]:
+                - generic [ref=e89]: Swaraj
+                - generic [ref=e90]: From India
+              - generic [ref=e91]:
+                - generic [ref=e92]: ★★★★★
+                - generic [ref=e93]: "5"
+            - generic [ref=e94]: A restless king promises his lands to the local tribals in exchange of a stone (Panjurli, a deity of Keradi Village) wherein he finds solace and peace of mind.
+        - generic [ref=e95]:
+          - button [ref=e96] [cursor=pointer]:
+            - img [ref=e97] [cursor=pointer]
+          - button [ref=e104] [cursor=pointer]:
+            - img [ref=e105] [cursor=pointer]
+    - generic [ref=e109]:
+      - generic [ref=e110]:
+        - generic [ref=e111]:
+          - img [ref=e112]
+          - generic [ref=e114]: Released Year
+        - generic [ref=e115]: "2022"
+      - generic [ref=e116]:
+        - generic [ref=e117]:
+          - img [ref=e118]
+          - generic [ref=e121]: Available Languages
+        - generic [ref=e122]:
+          - generic [ref=e123]: English
+          - generic [ref=e124]: Hindi
+          - generic [ref=e125]: Tamil
+          - generic [ref=e126]: Telugu
+          - generic [ref=e127]: Kannada
+      - generic [ref=e128]:
+        - generic [ref=e129]:
+          - img [ref=e130]
+          - generic [ref=e132]: Ratings
+        - generic [ref=e133]:
+          - generic [ref=e134]:
+            - generic [ref=e135]: IMDb
+            - generic [ref=e136]:
+              - generic [ref=e137]: ★★★★☆
+              - generic [ref=e138]: "4.5"
+          - generic [ref=e139]:
+            - generic [ref=e140]: Streamvibe
+            - generic [ref=e141]:
+              - generic [ref=e142]: ★★★★
+              - generic [ref=e143]: "4"
+      - generic [ref=e144]:
+        - generic [ref=e145]:
+          - img [ref=e146]
+          - generic [ref=e151]: Genres
+        - generic [ref=e152]:
+          - generic [ref=e153]: Action
+          - generic [ref=e154]: Adventure
+      - generic [ref=e155]:
+        - generic [ref=e156]: Director
+        - generic [ref=e159]:
+          - generic [ref=e160]: Rishab Shetty
+          - generic [ref=e161]: From India
+      - generic [ref=e162]:
+        - generic [ref=e163]: Music
+        - generic [ref=e166]:
+          - generic [ref=e167]: B. Ajaneesh Loknath
+          - generic [ref=e168]: From India
+  - generic [ref=e212]:
+    - generic [ref=e213]:
+      - heading "Start your free trial today!" [level=2] [ref=e214]
+      - paragraph [ref=e215]: This is a clear and concise call to action that encourages users to sign up for a free trial of StreamVibe.
+    - link "Start a Free Trial" [active] [ref=e216] [cursor=pointer]:
+      - /url: "#"
+  - contentinfo [ref=e217]:
+    - generic [ref=e218]:
+      - generic [ref=e219]:
+        - generic [ref=e220]:
+          - heading "Home" [level=3] [ref=e221]
+          - generic [ref=e222]:
+            - link "Categories" [ref=e223] [cursor=pointer]:
+              - /url: "#"
+            - link "Devices" [ref=e224] [cursor=pointer]:
+              - /url: "#"
+            - link "Pricing" [ref=e225] [cursor=pointer]:
+              - /url: "#"
+            - link "FAQ" [ref=e226] [cursor=pointer]:
+              - /url: "#"
+        - generic [ref=e227]:
+          - heading "Movies" [level=3] [ref=e228]
+          - generic [ref=e229]:
+            - link "Genres" [ref=e230] [cursor=pointer]:
+              - /url: "#"
+            - link "Trending" [ref=e231] [cursor=pointer]:
+              - /url: "#"
+            - link "New Release" [ref=e232] [cursor=pointer]:
+              - /url: "#"
+            - link "Popular" [ref=e233] [cursor=pointer]:
+              - /url: "#"
+        - generic [ref=e234]:
+          - heading "Shows" [level=3] [ref=e235]
+          - generic [ref=e236]:
+            - link "Genres" [ref=e237] [cursor=pointer]:
+              - /url: "#"
+            - link "Trending" [ref=e238] [cursor=pointer]:
+              - /url: "#"
+            - link "New Release" [ref=e239] [cursor=pointer]:
+              - /url: "#"
+            - link "Popular" [ref=e240] [cursor=pointer]:
+              - /url: "#"
+        - generic [ref=e241]:
+          - heading "Support" [level=3] [ref=e242]
+          - link "Contact Us" [ref=e244] [cursor=pointer]:
+            - /url: "#"
+        - generic [ref=e245]:
+          - heading "Subscription" [level=3] [ref=e246]
+          - generic [ref=e247]:
+            - link "Plans" [ref=e248] [cursor=pointer]:
+              - /url: "#"
+            - link "Features" [ref=e249] [cursor=pointer]:
+              - /url: "#"
+        - generic [ref=e250]:
+          - heading "Connect With Us" [level=3] [ref=e251]
+          - generic [ref=e252]:
+            - button [ref=e253] [cursor=pointer]:
+              - img [ref=e254] [cursor=pointer]
+            - button [ref=e256] [cursor=pointer]:
+              - img [ref=e257] [cursor=pointer]
+            - button [ref=e259] [cursor=pointer]:
+              - img [ref=e260] [cursor=pointer]
+      - generic [ref=e264]:
+        - generic [ref=e265]: "@2023 streamvib, All Rights Reserved"
+        - generic [ref=e266]:
+          - link "Terms of Use" [ref=e267] [cursor=pointer]:
+            - /url: "#"
+          - link "Privacy Policy" [ref=e269] [cursor=pointer]:
+            - /url: "#"
+          - link "Cookie Policy" [ref=e271] [cursor=pointer]:
+            - /url: "#"

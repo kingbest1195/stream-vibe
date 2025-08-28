@@ -1,0 +1,5 @@
+---
+alwaysApply: true
+---
+
+All generated image files related to this project should be stored in the '/src/assets/images/gen'. for each generation create there new folder with name related to the generations. For example: we are generating icon pack of a cat in nintendo style. First you will create a folder with a name in kebab case like "icons-nintendo-cat" then each file will be named in the order like, 1, 2, 3 etc..

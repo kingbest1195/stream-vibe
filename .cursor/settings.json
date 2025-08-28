@@ -1,0 +1,47 @@
+{
+  "editor.tokenColorCustomizations": {
+    "textMateRules": [
+      {
+        "scope": "variable.other.scss",
+        "settings": {
+          "foreground": "#4EC9B0"
+        }
+      },
+      {
+        "scope": "variable.other.property-value.scss",
+        "settings": {
+          "foreground": "#CE9178"
+        }
+      },
+      {
+        "scope": "support.type.property-name.css",
+        "settings": {
+          "foreground": "#9CDCFE"
+        }
+      },
+      {
+        "scope": "constant.numeric.css",
+        "settings": {
+          "foreground": "#B5CEA8"
+        }
+      },
+      {
+        "scope": "string.quoted.double.css",
+        "settings": {
+          "foreground": "#CE9178"
+        }
+      },
+      {
+        "scope": "keyword.control.scss",
+        "settings": {
+          "foreground": "#C586C0"
+        }
+      }
+    ]
+  },
+  "scss.validate": true,
+  "scss.lint.validProperties": [],
+  "files.associations": {
+    "*.scss": "scss"
+  }
+}
