@@ -4,14 +4,28 @@ import { Image } from "minista"
 import Button from "../Button"
 
 const MovieBannerCard = (props) => {
-  const { className, title, description, imgSrc } = props
+  const {
+    className,
+    title,
+    TitleTag = "h2",
+    titleId,
+    description,
+    imgSrc,
+    isSmallPaddingY = false,
+  } = props
   return (
     <>
       <div className={classNames(className, "movie-banner-card")}>
         <Image className="movie-banner-card__image" src={imgSrc} />
-        <div className="movie-banner-card__inner">
+        <div
+          className={classNames("movie-banner-card__inner", {
+            "movie-banner-card__inner--small-padding-y": isSmallPaddingY,
+          })}
+        >
           <div className="movie-banner-card__body">
-            <h2 className="movie-banner-card__title h3">{title}</h2>
+            <TitleTag className="movie-banner-card__title h3" id={titleId}>
+              {title}
+            </TitleTag>
             <div className="movie-banner-card__description hidden-mobile">
               <p>{description}</p>
             </div>
