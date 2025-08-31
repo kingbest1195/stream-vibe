@@ -10,7 +10,7 @@ import Tags from "@/components/Tags"
 import Ratings from "@/components/Ratings"
 
 const MovieDetails = (props) => {
-  const { className } = props
+  const { className, seasons } = props
   const titleId = "movie-details-title"
   const castSliderNavigationId = "movie-cast-slider-navigation"
   const castItems = [
@@ -131,6 +131,14 @@ const MovieDetails = (props) => {
           Movie Details
         </h2>
         <div className="movie-details__main">
+          {seasons && (
+            <div className="movie-details__panel movie-details__panel--seasons">
+              <div className="movie-details__group movie-details__group--big-gap-y">
+                <h3 className="h4">Seasons and episodes</h3>
+                {seasons}
+              </div>
+            </div>
+          )}
           <div className="movie-details__panel movie-details__panel--description">
             <div className="movie-details__group">
               <h3 className="movie-details__title">Description</h3>

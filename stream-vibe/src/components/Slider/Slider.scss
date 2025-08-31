@@ -16,6 +16,10 @@
 
     &.slider-navigation {
       justify-content: center;
+
+      &.slider-navigation--abs-bottom {
+        justify-content: space-between;
+      }
     }
   }
 
