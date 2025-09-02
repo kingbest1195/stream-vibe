@@ -30,6 +30,7 @@ const Tabs = (props) => {
 
             return (
               <div
+                key={index}
                 className={classNames("tabs__content", {
                   "is-active": isActive,
                 })}

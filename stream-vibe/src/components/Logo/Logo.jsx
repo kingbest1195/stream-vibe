@@ -1,5 +1,6 @@
 import "./Logo.scss"
 import classNames from "classnames"
+import logoImgSrc from "@/assets/images/logo.svg"
 
 const Logo = (props) => {
   const { loading = "lazy", className } = props
@@ -13,7 +14,7 @@ const Logo = (props) => {
         aria-label={title}
       >
         <img
-          src="/logo.svg"
+          src={logoImgSrc}
           alt=""
           className="logo__image"
           width={199}

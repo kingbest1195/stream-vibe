@@ -1,5 +1,6 @@
 import "./Hero.scss"
 import Button from "@/components/Button"
+import playImgSrc from "@/assets/images/play.svg"
 
 const Hero = () => {
   const titleId = "hero-title"
@@ -15,7 +16,7 @@ const Hero = () => {
             title={playButtonTitle}
           >
             <img
-              src="/play.svg"
+              src={playImgSrc}
               alt=""
               width={470}
               height={470}

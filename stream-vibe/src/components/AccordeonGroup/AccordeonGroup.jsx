@@ -28,7 +28,7 @@ const AccordeonGroup = (props) => {
           <li
             className={classNames("accordeon-group__item", {
               "accordeon-group__item--last-column-item":
-                colums > 1 && itemsPerColumn / (index + 1) === 1,
+                colums > 1 && (index + 1) % itemsPerColumn === 0,
             })}
             key={index}
           >

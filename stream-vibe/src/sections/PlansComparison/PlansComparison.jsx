@@ -28,7 +28,7 @@ const PlansComparison = (props) => {
       <section
         className={classNames(className, "plans-comparison", "container")}
         title="Compare our plans and find the right one for you"
-        titleId="plans-comparison-title"
+        data-title-id="plans-comparison-title"
         description="StreamVibe offers three different plans to fit your needs: Basic, Standard, and Premium. Compare the features of each plan and choose the one that's right for you."
       >
         <Table headCells={headCells} rows={rows} className="hidden-mobile" />

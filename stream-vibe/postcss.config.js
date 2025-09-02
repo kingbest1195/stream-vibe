@@ -1,4 +1,5 @@
 import postcssPxToRem from "postcss-pxtorem"
+import postcssPresetEnv from "postcss-preset-env" /* use for old browsers */
 
 export default ({ env }) => {
   const isProd = env === "production"
@@ -11,6 +12,8 @@ export default ({ env }) => {
         mediaQuery: true,
       })
     )
+
+    plugins.push(postcssPresetEnv())
   }
 
   return {

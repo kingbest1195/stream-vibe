@@ -232,7 +232,7 @@ const MovieDetails = (props) => {
                   <span>Release Year</span>
                 </h3>
                 <div className="movie-details__description">
-                  <time datetime="2022-01-01" className="h6">
+                  <time dateTime="2022-01-01" className="h6">
                     2022
                   </time>
                 </div>
