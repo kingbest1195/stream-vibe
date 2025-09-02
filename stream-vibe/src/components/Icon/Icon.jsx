@@ -8,13 +8,24 @@ const Icon = (props) => {
   // Используем абсолютный URL для лучшей совместимости с браузерами
   const getIconPath = () => {
     if (typeof window !== "undefined") {
-      // В браузере используем относительный путь от текущего домена
-      return (
-        window.location.origin + "/node_modules/.minista/icons/serve/icons.svg"
-      )
+      // Проверяем режим разработки или production
+      const isDev =
+        window.location.hostname === "localhost" ||
+        window.location.hostname === "127.0.0.1"
+
+      if (isDev) {
+        // В dev режиме используем путь к временному файлу Minista
+        return (
+          window.location.origin +
+          "/node_modules/.minista/icons/serve/icons.svg"
+        )
+      } else {
+        // В production используем собранный файл
+        return window.location.origin + "/assets/images/icons.svg"
+      }
     }
-    // Для SSR используем относительный путь
-    return "/node_modules/.minista/icons/serve/icons.svg"
+    // Для SSR используем относительный путь к production версии
+    return "/assets/images/icons.svg"
   }
 
   return (
