@@ -1,0 +1,245 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - generic [ref=e3]:
+      - link "Home" [ref=e4] [cursor=pointer]:
+        - /url: /
+      - dialog [ref=e5]:
+        - navigation [ref=e6]:
+          - list [ref=e7]:
+            - listitem [ref=e8]:
+              - link "Home" [ref=e9] [cursor=pointer]:
+                - /url: /
+            - listitem [ref=e10]:
+              - link "Movies & Shows" [ref=e11] [cursor=pointer]:
+                - /url: /movies
+            - listitem [ref=e12]:
+              - link "Support" [ref=e13] [cursor=pointer]:
+                - /url: /support
+            - listitem [ref=e14]:
+              - link "Subscriptions":
+                - /url: /subscriptions
+        - generic [ref=e15]:
+          - button "Search" [ref=e16] [cursor=pointer]:
+            - img [ref=e18]
+          - button "Notifications" [ref=e20] [cursor=pointer]:
+            - img [ref=e22]
+  - main [ref=e24]:
+    - region "Choose the plan that's fits you" [ref=e25]:
+      - generic [ref=e26]:
+        - generic [ref=e27]:
+          - heading "Choose the plan that's fits you" [level=2] [ref=e28]
+          - paragraph [ref=e30]: Join StreamVibe and select from our flexible subscription options tailored to suit your viewing preferences. Get ready for non-stop entertainment!
+        - tablist "plans-tabs" [ref=e32]:
+          - heading "plans-tabs" [level=3] [ref=e33]
+          - tab "Monthly" [selected]
+          - tab "Yearly" [ref=e34] [cursor=pointer]
+      - list [ref=e39]:
+        - listitem [ref=e40]:
+          - generic [ref=e41]:
+            - generic [ref=e42]:
+              - heading "Basic Plan" [level=3] [ref=e43]
+              - paragraph [ref=e45]: Enjoy an extensive library of movies and shows, featuring a range of content, including recently released titles.
+            - generic [ref=e46]:
+              - generic [ref=e47]: $9.99
+              - generic [ref=e48]: /month
+            - generic [ref=e49]:
+              - link "Start free trial" [ref=e50] [cursor=pointer]:
+                - /url: /subscribtion
+                - generic [ref=e51]: Start free trial
+              - link "Choose plan" [ref=e52] [cursor=pointer]:
+                - /url: /subscribtion
+                - generic [ref=e53]: Choose plan
+        - listitem [ref=e54]:
+          - generic [ref=e55]:
+            - generic [ref=e56]:
+              - heading "Standard Plan" [level=3] [ref=e57]
+              - paragraph [ref=e59]: Access to a wider selection of movies and shows, including most new releases and exclusive content
+            - generic [ref=e60]:
+              - generic [ref=e61]: $12.99
+              - generic [ref=e62]: /month
+            - generic [ref=e63]:
+              - link "Start free trial" [ref=e64] [cursor=pointer]:
+                - /url: /subscribtion
+                - generic [ref=e65]: Start free trial
+              - link "Choose plan" [ref=e66] [cursor=pointer]:
+                - /url: /subscribtion
+                - generic [ref=e67]: Choose plan
+        - listitem [ref=e68]:
+          - generic [ref=e69]:
+            - generic [ref=e70]:
+              - heading "Premium Plan" [level=3] [ref=e71]
+              - paragraph [ref=e73]: Access to a widest selection of movies and shows, including all new releases and Offline Viewing
+            - generic [ref=e74]:
+              - generic [ref=e75]: $14.99
+              - generic [ref=e76]: /month
+            - generic [ref=e77]:
+              - link "Start free trial" [ref=e78] [cursor=pointer]:
+                - /url: /subscribtion
+                - generic [ref=e79]: Start free trial
+              - link "Choose plan" [ref=e80] [cursor=pointer]:
+                - /url: /subscribtion
+                - generic [ref=e81]: Choose plan
+    - table [ref=e83]:
+      - rowgroup [ref=e84]:
+        - row "Features Basic Standard Popular Premium" [ref=e85]:
+          - cell "Features" [ref=e86]
+          - cell "Basic" [ref=e87]
+          - cell "Standard Popular" [ref=e88]:
+            - text: Standard
+            - generic [ref=e90]: Popular
+          - cell "Premium" [ref=e91]
+      - rowgroup [ref=e92]:
+        - row "Price $9.99/Month $12.99/Month $14.99/Month" [ref=e93]:
+          - cell "Price" [ref=e94]
+          - cell "$9.99/Month" [ref=e95]
+          - cell "$12.99/Month" [ref=e96]
+          - cell "$14.99/Month" [ref=e97]
+        - row "Content Access to a wide selection of movies and shows, including some new releases. Access to a wider selection of movies and shows, including most new releases and exclusive content Access to a widest selection of movies and shows, including all new releases and Offline Viewing" [ref=e98]:
+          - cell "Content" [ref=e99]
+          - cell "Access to a wide selection of movies and shows, including some new releases." [ref=e100]
+          - cell "Access to a wider selection of movies and shows, including most new releases and exclusive content" [ref=e101]
+          - cell "Access to a widest selection of movies and shows, including all new releases and Offline Viewing" [ref=e102]
+        - row "Devices Watch on one device simultaneously Watch on Two device simultaneously Watch on Four device simultaneously" [ref=e103]:
+          - cell "Devices" [ref=e104]
+          - cell "Watch on one device simultaneously" [ref=e105]
+          - cell "Watch on Two device simultaneously" [ref=e106]
+          - cell "Watch on Four device simultaneously" [ref=e107]
+        - row "Free Trial 7 Days 7 Days 7 Days" [ref=e108]:
+          - cell "Free Trial" [ref=e109]
+          - cell "7 Days" [ref=e110]
+          - cell "7 Days" [ref=e111]
+          - cell "7 Days" [ref=e112]
+        - row "Cancel Anytime Yes Yes Yes" [ref=e113]:
+          - cell "Cancel Anytime" [ref=e114]
+          - cell "Yes" [ref=e115]
+          - cell "Yes" [ref=e116]
+          - cell "Yes" [ref=e117]
+        - row "HDR No Yes Yes" [ref=e118]:
+          - cell "HDR" [ref=e119]
+          - cell "No" [ref=e120]
+          - cell "Yes" [ref=e121]
+          - cell "Yes" [ref=e122]
+        - row "Dolby Atmos No Yes Yes" [ref=e123]:
+          - cell "Dolby Atmos" [ref=e124]
+          - cell "No" [ref=e125]
+          - cell "Yes" [ref=e126]
+          - cell "Yes" [ref=e127]
+        - row "Ad-Free No Yes Yes" [ref=e128]:
+          - cell "Ad-Free" [ref=e129]
+          - cell "No" [ref=e130]
+          - cell "Yes" [ref=e131]
+          - cell "Yes" [ref=e132]
+        - row "Offline Viewing No Yes, for select titles. Yes, for all titles." [ref=e133]:
+          - cell "Offline Viewing" [ref=e134]
+          - cell "No" [ref=e135]
+          - cell "Yes, for select titles." [ref=e136]
+          - cell "Yes, for all titles." [ref=e137]
+        - row "Family Sharing No Yes, up to 5 family members. Yes, up to 6 family members." [ref=e138]:
+          - cell "Family Sharing" [ref=e139]
+          - cell "No" [ref=e140]
+          - cell "Yes, up to 5 family members." [ref=e141]
+          - cell "Yes, up to 6 family members." [ref=e142]
+    - region "Start your free trial today" [ref=e143]:
+      - generic [ref=e144]:
+        - generic [ref=e145]:
+          - heading "Start your free trial today" [level=2] [ref=e146]
+          - paragraph [ref=e148]: This is a clear and concise call to action that encourages users to sign up for a free trial of StreamVibe.
+        - link "Start a free trial" [ref=e149] [cursor=pointer]:
+          - /url: /subscribtion
+          - generic [ref=e150]: Start a free trial
+  - contentinfo [ref=e151]:
+    - generic [ref=e152]:
+      - navigation [ref=e153]:
+        - generic [ref=e154]:
+          - link "Home" [ref=e155] [cursor=pointer]:
+            - /url: /
+          - list [ref=e156]:
+            - listitem [ref=e157]:
+              - link "Categories" [ref=e158] [cursor=pointer]:
+                - /url: /
+            - listitem [ref=e159]:
+              - link "Devices" [ref=e160] [cursor=pointer]:
+                - /url: /
+            - listitem [ref=e161]:
+              - link "Pricing" [ref=e162] [cursor=pointer]:
+                - /url: /
+            - listitem [ref=e163]:
+              - link "FAQ" [ref=e164] [cursor=pointer]:
+                - /url: /
+        - generic [ref=e165]:
+          - link "Movies" [ref=e166] [cursor=pointer]:
+            - /url: /
+          - list [ref=e167]:
+            - listitem [ref=e168]:
+              - link "Genres" [ref=e169] [cursor=pointer]:
+                - /url: /
+            - listitem [ref=e170]:
+              - link "Trending" [ref=e171] [cursor=pointer]:
+                - /url: /
+            - listitem [ref=e172]:
+              - link "New Releases" [ref=e173] [cursor=pointer]:
+                - /url: /
+            - listitem [ref=e174]:
+              - link "Popular" [ref=e175] [cursor=pointer]:
+                - /url: /
+        - generic [ref=e176]:
+          - link "Shows" [ref=e177] [cursor=pointer]:
+            - /url: /
+          - list [ref=e178]:
+            - listitem [ref=e179]:
+              - link "Genres" [ref=e180] [cursor=pointer]:
+                - /url: /
+            - listitem [ref=e181]:
+              - link "Trending" [ref=e182] [cursor=pointer]:
+                - /url: /
+            - listitem [ref=e183]:
+              - link "New Release" [ref=e184] [cursor=pointer]:
+                - /url: /
+            - listitem [ref=e185]:
+              - link "Popular" [ref=e186] [cursor=pointer]:
+                - /url: /
+        - generic [ref=e187]:
+          - link "Support" [ref=e188] [cursor=pointer]:
+            - /url: /
+          - list [ref=e189]:
+            - listitem [ref=e190]:
+              - link "Contact Us" [ref=e191] [cursor=pointer]:
+                - /url: /
+        - generic [ref=e192]:
+          - link "Subscription" [ref=e193] [cursor=pointer]:
+            - /url: /
+          - list [ref=e194]:
+            - listitem [ref=e195]:
+              - link "Plans" [ref=e196] [cursor=pointer]:
+                - /url: /
+            - listitem [ref=e197]:
+              - link "Features" [ref=e198] [cursor=pointer]:
+                - /url: /
+        - generic [ref=e199]:
+          - link "Connect With Us" [ref=e200] [cursor=pointer]:
+            - /url: /
+          - list [ref=e202]:
+            - listitem [ref=e203]:
+              - link "Facebook" [ref=e204] [cursor=pointer]:
+                - /url: /
+                - img [ref=e206]
+            - listitem [ref=e208]:
+              - link "Twitter" [ref=e209] [cursor=pointer]:
+                - /url: /
+                - img [ref=e211]
+            - listitem [ref=e213]:
+              - link "LinkedIn" [ref=e214] [cursor=pointer]:
+                - /url: /
+                - img [ref=e216]
+      - generic [ref=e218]:
+        - paragraph [ref=e219]:
+          - text: "@"
+          - time [ref=e220]: "2025"
+          - text: Streamvibe, All Rights Reserved
+        - generic [ref=e221]:
+          - link "Terms of Use" [ref=e222] [cursor=pointer]:
+            - /url: /
+          - link "Privacy Policy" [ref=e223] [cursor=pointer]:
+            - /url: /
+          - link "Cookie Policy" [ref=e224] [cursor=pointer]:
+            - /url: /

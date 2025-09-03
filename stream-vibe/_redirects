@@ -1,0 +1,9 @@
+# Redirects для страниц без .html расширения
+/movies             /movies.html         200
+/support            /support.html        200  
+/subscriptions      /subscriptions.html  200
+/movie              /movie.html          200
+/show               /show.html           200
+
+# Fallback для всех остальных маршрутов
+/*                  /index.html          404

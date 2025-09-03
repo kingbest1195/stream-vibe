@@ -1,0 +1,716 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - generic [ref=e3]:
+      - link "Home" [ref=e4] [cursor=pointer]:
+        - /url: /
+      - dialog [ref=e5]:
+        - navigation [ref=e6]:
+          - list [ref=e7]:
+            - listitem [ref=e8]:
+              - link "Home" [ref=e9] [cursor=pointer]:
+                - /url: /
+            - listitem [ref=e10]:
+              - link "Movies & Shows":
+                - /url: /movies
+            - listitem [ref=e11]:
+              - link "Support" [ref=e12] [cursor=pointer]:
+                - /url: /support
+            - listitem [ref=e13]:
+              - link "Subscriptions" [ref=e14] [cursor=pointer]:
+                - /url: /subscriptions
+        - generic [ref=e15]:
+          - button "Search" [ref=e16] [cursor=pointer]:
+            - img [ref=e18]
+          - button "Notifications" [ref=e20] [cursor=pointer]:
+            - img [ref=e22]
+  - main [ref=e24]:
+    - region "Movies & Shows" [ref=e25]:
+      - heading "Movies & Shows" [level=1] [ref=e26]
+      - generic [ref=e27]:
+        - list [ref=e29]:
+          - listitem [ref=e30]:
+            - generic [ref=e32]:
+              - generic [ref=e33]:
+                - 'heading "Avengers : Endgame" [level=2] [ref=e34]'
+                - paragraph [ref=e36]: With the help of remaining allies, the Avengers must assemble once more in order to undo Thanos's actions and undo the chaos to the universe, no matter what consequences may be in store, and no matter who they face... Avenge the fallen.
+              - generic [ref=e37]:
+                - button "Play now" [ref=e38] [cursor=pointer]:
+                  - img [ref=e40]
+                  - generic [ref=e42]: Play now
+                - generic [ref=e43]:
+                  - button "Add to playlist" [ref=e44] [cursor=pointer]:
+                    - img [ref=e46]
+                  - button "Add to favorites" [ref=e48] [cursor=pointer]:
+                    - img [ref=e50]
+                  - button "Mute" [ref=e52] [cursor=pointer]:
+                    - img [ref=e54]
+          - listitem [ref=e56]:
+            - generic [ref=e58]:
+              - generic [ref=e59]:
+                - heading "Kantara" [level=2] [ref=e60]
+                - paragraph [ref=e62]: A fiery young man clashes with an unflinching forest officer in a south Indian village where spirituality, fate and folklore rule the lands.
+              - generic [ref=e63]:
+                - button "Play now" [ref=e64] [cursor=pointer]:
+                  - img [ref=e66]
+                  - generic [ref=e68]: Play now
+                - generic [ref=e69]:
+                  - button "Add to playlist" [ref=e70] [cursor=pointer]:
+                    - img [ref=e72]
+                  - button "Add to favorites" [ref=e74] [cursor=pointer]:
+                    - img [ref=e76]
+                  - button "Mute" [ref=e78] [cursor=pointer]:
+                    - img [ref=e80]
+          - listitem [ref=e82]:
+            - generic [ref=e84]:
+              - generic [ref=e85]:
+                - heading "Stranger Things" [level=2] [ref=e86]
+                - paragraph [ref=e88]: When a young boy vanishes, a small town uncovers a mystery involving secret experiments, terrifying supernatural forces and one strange little girl.
+              - generic [ref=e89]:
+                - button "Play now" [ref=e90] [cursor=pointer]:
+                  - img [ref=e92]
+                  - generic [ref=e94]: Play now
+                - generic [ref=e95]:
+                  - button "Add to playlist" [ref=e96] [cursor=pointer]:
+                    - img [ref=e98]
+                  - button "Add to favorites" [ref=e100] [cursor=pointer]:
+                    - img [ref=e102]
+                  - button "Mute" [ref=e104] [cursor=pointer]:
+                    - img [ref=e106]
+        - generic [ref=e108]:
+          - button "Previous slide" [disabled]:
+            - generic:
+              - img
+          - button "Next slide" [ref=e113] [cursor=pointer]:
+            - img [ref=e115]
+    - generic [ref=e118]:
+      - generic [ref=e120]:
+        - paragraph [ref=e121]: Movies
+        - region "Our Genres" [ref=e122]:
+          - generic [ref=e123]:
+            - heading "Our Genres" [level=2] [ref=e125]
+            - generic [ref=e127]:
+              - button "Previous slide" [disabled]:
+                - generic:
+                  - img
+              - button "Next slide" [disabled]:
+                - generic:
+                  - img
+          - list [ref=e133]:
+            - listitem [ref=e134]:
+              - link "Action" [ref=e135] [cursor=pointer]:
+                - /url: /movies
+                - generic [ref=e137]:
+                  - heading "Action" [level=3] [ref=e138]:
+                    - generic [ref=e139]: Action
+                  - img [ref=e141]
+            - listitem [ref=e143]:
+              - link "Adventure" [ref=e144] [cursor=pointer]:
+                - /url: /movies
+                - generic [ref=e146]:
+                  - heading "Adventure" [level=3] [ref=e147]:
+                    - generic [ref=e148]: Adventure
+                  - img [ref=e150]
+            - listitem [ref=e152]:
+              - link "Comedy" [ref=e153] [cursor=pointer]:
+                - /url: /movies
+                - generic [ref=e155]:
+                  - heading "Comedy" [level=3] [ref=e156]:
+                    - generic [ref=e157]: Comedy
+                  - img [ref=e159]
+            - listitem [ref=e161]:
+              - link "Drama" [ref=e162] [cursor=pointer]:
+                - /url: /movies
+                - generic [ref=e164]:
+                  - heading "Drama" [level=3] [ref=e165]:
+                    - generic [ref=e166]: Drama
+                  - img [ref=e168]
+            - listitem [ref=e170]:
+              - link "Horror" [ref=e171] [cursor=pointer]:
+                - /url: /movies
+                - generic [ref=e173]:
+                  - heading "Horror" [level=3] [ref=e174]:
+                    - generic [ref=e175]: Horror
+                  - img [ref=e177]
+        - region "Popular Top 10 In Genres" [ref=e179]:
+          - generic [ref=e180]:
+            - heading "Popular Top 10 In Genres" [level=2] [ref=e182]
+            - generic [ref=e184]:
+              - button "Previous slide" [disabled]:
+                - generic:
+                  - img
+              - button "Next slide" [ref=e188] [cursor=pointer]:
+                - img [ref=e190]
+          - list [ref=e195]:
+            - listitem [ref=e196]:
+              - link "Top 10 In Action" [ref=e197] [cursor=pointer]:
+                - /url: /movies
+                - generic [ref=e199]:
+                  - heading "Top 10 In Action" [level=3] [ref=e200]:
+                    - generic [ref=e202]: Top 10 In
+                    - generic [ref=e203]: Action
+                  - img [ref=e205]
+            - listitem [ref=e207]:
+              - link "Top 10 In Adventure" [ref=e208] [cursor=pointer]:
+                - /url: /movies
+                - generic [ref=e210]:
+                  - heading "Top 10 In Adventure" [level=3] [ref=e211]:
+                    - generic [ref=e213]: Top 10 In
+                    - generic [ref=e214]: Adventure
+                  - img [ref=e216]
+            - listitem [ref=e218]:
+              - link "Top 10 In Comedy" [ref=e219] [cursor=pointer]:
+                - /url: /movies
+                - generic [ref=e221]:
+                  - heading "Top 10 In Comedy" [level=3] [ref=e222]:
+                    - generic [ref=e224]: Top 10 In
+                    - generic [ref=e225]: Comedy
+                  - img [ref=e227]
+            - listitem [ref=e229]:
+              - link "Top 10 In Drama" [ref=e230] [cursor=pointer]:
+                - /url: /movies
+                - generic [ref=e232]:
+                  - heading "Top 10 In Drama" [level=3] [ref=e233]:
+                    - generic [ref=e235]: Top 10 In
+                    - generic [ref=e236]: Drama
+                  - img [ref=e238]
+            - listitem [ref=e240]:
+              - link "Top 10 In Action" [ref=e241] [cursor=pointer]:
+                - /url: /movies
+                - generic [ref=e243]:
+                  - heading "Top 10 In Action" [level=3] [ref=e244]:
+                    - generic [ref=e246]: Top 10 In
+                    - generic [ref=e247]: Action
+                  - img [ref=e249]
+            - listitem [ref=e251]:
+              - link "Top 10 In Adventure" [ref=e252] [cursor=pointer]:
+                - /url: /movies
+                - generic [ref=e254]:
+                  - heading "Top 10 In Adventure" [level=3] [ref=e255]:
+                    - generic [ref=e257]: Top 10 In
+                    - generic [ref=e258]: Adventure
+                  - img [ref=e260]
+            - listitem [ref=e262]:
+              - link "Top 10 In Comedy" [ref=e263] [cursor=pointer]:
+                - /url: /movies
+                - generic [ref=e265]:
+                  - heading "Top 10 In Comedy" [level=3] [ref=e266]:
+                    - generic [ref=e268]: Top 10 In
+                    - generic [ref=e269]: Comedy
+                  - img [ref=e271]
+            - listitem [ref=e273]:
+              - link "Top 10 In Drama" [ref=e274] [cursor=pointer]:
+                - /url: /movies
+                - generic [ref=e276]:
+                  - heading "Top 10 In Drama" [level=3] [ref=e277]:
+                    - generic [ref=e279]: Top 10 In
+                    - generic [ref=e280]: Drama
+                  - img [ref=e282]
+        - region "Trending Now" [ref=e284]:
+          - generic [ref=e285]:
+            - heading "Trending Now" [level=2] [ref=e287]
+            - generic [ref=e289]:
+              - button "Previous slide" [disabled]:
+                - generic:
+                  - img
+              - button "Next slide" [ref=e293] [cursor=pointer]:
+                - img [ref=e295]
+          - list [ref=e300]:
+            - listitem [ref=e301]:
+              - link "Trending Movie 1 Duration 1h 30min Views 2K" [ref=e302] [cursor=pointer]:
+                - /url: /movie
+                - heading "Trending Movie 1" [level=3] [ref=e303]
+                - generic [ref=e304]:
+                  - generic [ref=e305]:
+                    - img [ref=e307]
+                    - generic [ref=e309]: 1h 30min
+                  - generic [ref=e310]:
+                    - img [ref=e312]
+                    - generic [ref=e314]: 2K
+            - listitem [ref=e315]:
+              - link "Trending Movie 2 Duration 1h 57min Views 1.5K" [ref=e316] [cursor=pointer]:
+                - /url: /movie
+                - heading "Trending Movie 2" [level=3] [ref=e317]
+                - generic [ref=e318]:
+                  - generic [ref=e319]:
+                    - img [ref=e321]
+                    - generic [ref=e323]: 1h 57min
+                  - generic [ref=e324]:
+                    - img [ref=e326]
+                    - generic [ref=e328]: 1.5K
+            - listitem [ref=e329]:
+              - link "Trending Movie 3 Duration 2h 10min Views 1.8K" [ref=e330] [cursor=pointer]:
+                - /url: /movie
+                - heading "Trending Movie 3" [level=3] [ref=e331]
+                - generic [ref=e332]:
+                  - generic [ref=e333]:
+                    - img [ref=e335]
+                    - generic [ref=e337]: 2h 10min
+                  - generic [ref=e338]:
+                    - img [ref=e340]
+                    - generic [ref=e342]: 1.8K
+            - listitem [ref=e343]:
+              - link "Trending Movie 4 Duration 2h 20min Views 3K" [ref=e344] [cursor=pointer]:
+                - /url: /movie
+                - heading "Trending Movie 4" [level=3] [ref=e345]
+                - generic [ref=e346]:
+                  - generic [ref=e347]:
+                    - img [ref=e349]
+                    - generic [ref=e351]: 2h 20min
+                  - generic [ref=e352]:
+                    - img [ref=e354]
+                    - generic [ref=e356]: 3K
+            - listitem [ref=e357]:
+              - link "Trending Movie 5 Duration 1h 42min Views 5K" [ref=e358] [cursor=pointer]:
+                - /url: /movie
+                - heading "Trending Movie 5" [level=3] [ref=e359]
+                - generic [ref=e360]:
+                  - generic [ref=e361]:
+                    - img [ref=e363]
+                    - generic [ref=e365]: 1h 42min
+                  - generic [ref=e366]:
+                    - img [ref=e368]
+                    - generic [ref=e370]: 5K
+        - region "New Releases" [ref=e371]:
+          - generic [ref=e372]:
+            - heading "New Releases" [level=2] [ref=e374]
+            - generic [ref=e376]:
+              - button "Previous slide" [disabled]:
+                - generic:
+                  - img
+              - button "Next slide" [ref=e380] [cursor=pointer]:
+                - img [ref=e382]
+          - list [ref=e387]:
+            - listitem [ref=e388]:
+              - link "New Release 1 Released at 14 April 2023" [ref=e389] [cursor=pointer]:
+                - /url: /movie
+                - heading "New Release 1" [level=3] [ref=e390]
+                - generic [ref=e393]:
+                  - text: Released at
+                  - time [ref=e394]: 14 April 2023
+            - listitem [ref=e395]:
+              - link "New Release 2 Released at 22 April 2023" [ref=e396] [cursor=pointer]:
+                - /url: /movie
+                - heading "New Release 2" [level=3] [ref=e397]
+                - generic [ref=e400]:
+                  - text: Released at
+                  - time [ref=e401]: 22 April 2023
+            - listitem [ref=e402]:
+              - link "New Release 3 Released at 13 April 2023" [ref=e403] [cursor=pointer]:
+                - /url: /movie
+                - heading "New Release 3" [level=3] [ref=e404]
+                - generic [ref=e407]:
+                  - text: Released at
+                  - time [ref=e408]: 13 April 2023
+            - listitem [ref=e409]:
+              - link "New Release 4 Released at 19 April 2023" [ref=e410] [cursor=pointer]:
+                - /url: /movie
+                - heading "New Release 4" [level=3] [ref=e411]
+                - generic [ref=e414]:
+                  - text: Released at
+                  - time [ref=e415]: 19 April 2023
+            - listitem [ref=e416]:
+              - link "New Release 5 Released at 11 April 2023" [ref=e417] [cursor=pointer]:
+                - /url: /movie
+                - heading "New Release 5" [level=3] [ref=e418]
+                - generic [ref=e421]:
+                  - text: Released at
+                  - time [ref=e422]: 11 April 2023
+        - region "Must - Watch Movies" [ref=e423]:
+          - generic [ref=e424]:
+            - heading "Must - Watch Movies" [level=2] [ref=e426]
+            - generic [ref=e428]:
+              - button "Previous slide" [disabled]:
+                - generic:
+                  - img
+              - button "Next slide" [disabled]:
+                - generic:
+                  - img
+          - list [ref=e434]:
+            - listitem [ref=e435]:
+              - 'link "Must Watch 1 Duration 1h 57min Rating: 4.3 out of 5" [ref=e436] [cursor=pointer]':
+                - /url: /movie
+                - heading "Must Watch 1" [level=3] [ref=e437]
+                - generic [ref=e438]:
+                  - generic [ref=e439]:
+                    - img [ref=e441]
+                    - generic [ref=e443]: 1h 57min
+                  - generic [ref=e448]: 20K
+            - listitem [ref=e449]:
+              - 'link "Must Watch 2 Duration 1h 30min Rating: 5 out of 5" [ref=e450] [cursor=pointer]':
+                - /url: /movie
+                - heading "Must Watch 2" [level=3] [ref=e451]
+                - generic [ref=e452]:
+                  - generic [ref=e453]:
+                    - img [ref=e455]
+                    - generic [ref=e457]: 1h 30min
+                  - generic [ref=e462]: 20K
+            - listitem [ref=e463]:
+              - 'link "Must Watch 3 Duration 1h 42min Rating: 4.3 out of 5" [ref=e464] [cursor=pointer]':
+                - /url: /movie
+                - heading "Must Watch 3" [level=3] [ref=e465]
+                - generic [ref=e466]:
+                  - generic [ref=e467]:
+                    - img [ref=e469]
+                    - generic [ref=e471]: 1h 42min
+                  - generic [ref=e476]: 20K
+            - listitem [ref=e477]:
+              - 'link "Must Watch 4 Duration 2h 10min Rating: 5 out of 5" [ref=e478] [cursor=pointer]':
+                - /url: /movie
+                - heading "Must Watch 4" [level=3] [ref=e479]
+                - generic [ref=e480]:
+                  - generic [ref=e481]:
+                    - img [ref=e483]
+                    - generic [ref=e485]: 2h 10min
+                  - generic [ref=e490]: 20K
+      - generic [ref=e492]:
+        - paragraph [ref=e493]: Shows
+        - region "Our Genres" [ref=e494]:
+          - generic [ref=e495]:
+            - heading "Our Genres" [level=2] [ref=e497]
+            - generic [ref=e499]:
+              - button "Previous slide" [disabled]:
+                - generic:
+                  - img
+              - button "Next slide" [disabled]:
+                - generic:
+                  - img
+          - list [ref=e505]:
+            - listitem [ref=e506]:
+              - link "Action" [ref=e507] [cursor=pointer]:
+                - /url: /movies
+                - generic [ref=e509]:
+                  - heading "Action" [level=3] [ref=e510]:
+                    - generic [ref=e511]: Action
+                  - img [ref=e513]
+            - listitem [ref=e515]:
+              - link "Adventure" [ref=e516] [cursor=pointer]:
+                - /url: /movies
+                - generic [ref=e518]:
+                  - heading "Adventure" [level=3] [ref=e519]:
+                    - generic [ref=e520]: Adventure
+                  - img [ref=e522]
+            - listitem [ref=e524]:
+              - link "Comedy" [ref=e525] [cursor=pointer]:
+                - /url: /movies
+                - generic [ref=e527]:
+                  - heading "Comedy" [level=3] [ref=e528]:
+                    - generic [ref=e529]: Comedy
+                  - img [ref=e531]
+            - listitem [ref=e533]:
+              - link "Drama" [ref=e534] [cursor=pointer]:
+                - /url: /movies
+                - generic [ref=e536]:
+                  - heading "Drama" [level=3] [ref=e537]:
+                    - generic [ref=e538]: Drama
+                  - img [ref=e540]
+            - listitem [ref=e542]:
+              - link "Horror" [ref=e543] [cursor=pointer]:
+                - /url: /movies
+                - generic [ref=e545]:
+                  - heading "Horror" [level=3] [ref=e546]:
+                    - generic [ref=e547]: Horror
+                  - img [ref=e549]
+        - region "Popular Top 10 In Genres" [ref=e551]:
+          - generic [ref=e552]:
+            - heading "Popular Top 10 In Genres" [level=2] [ref=e554]
+            - generic [ref=e556]:
+              - button "Previous slide" [disabled]:
+                - generic:
+                  - img
+              - button "Next slide" [disabled]:
+                - generic:
+                  - img
+          - list [ref=e562]:
+            - listitem [ref=e563]:
+              - link "Top 10 In Action" [ref=e564] [cursor=pointer]:
+                - /url: /movies
+                - generic [ref=e566]:
+                  - heading "Top 10 In Action" [level=3] [ref=e567]:
+                    - generic [ref=e569]: Top 10 In
+                    - generic [ref=e570]: Action
+                  - img [ref=e572]
+            - listitem [ref=e574]:
+              - link "Top 10 In Adventure" [ref=e575] [cursor=pointer]:
+                - /url: /movies
+                - generic [ref=e577]:
+                  - heading "Top 10 In Adventure" [level=3] [ref=e578]:
+                    - generic [ref=e580]: Top 10 In
+                    - generic [ref=e581]: Adventure
+                  - img [ref=e583]
+            - listitem [ref=e585]:
+              - link "Top 10 In Comedy" [ref=e586] [cursor=pointer]:
+                - /url: /movies
+                - generic [ref=e588]:
+                  - heading "Top 10 In Comedy" [level=3] [ref=e589]:
+                    - generic [ref=e591]: Top 10 In
+                    - generic [ref=e592]: Comedy
+                  - img [ref=e594]
+            - listitem [ref=e596]:
+              - link "Top 10 In Drama" [ref=e597] [cursor=pointer]:
+                - /url: /movies
+                - generic [ref=e599]:
+                  - heading "Top 10 In Drama" [level=3] [ref=e600]:
+                    - generic [ref=e602]: Top 10 In
+                    - generic [ref=e603]: Drama
+                  - img [ref=e605]
+        - region "Trending Shows Now" [ref=e607]:
+          - generic [ref=e608]:
+            - heading "Trending Shows Now" [level=2] [ref=e610]
+            - generic [ref=e612]:
+              - button "Previous slide" [disabled]:
+                - generic:
+                  - img
+              - button "Next slide" [disabled]:
+                - generic:
+                  - img
+          - list [ref=e618]:
+            - listitem [ref=e619]:
+              - link "Trending Show 1 Duration 8h 20min Season 4 Season" [ref=e620] [cursor=pointer]:
+                - /url: /movie
+                - heading "Trending Show 1" [level=3] [ref=e621]
+                - generic [ref=e622]:
+                  - generic [ref=e623]:
+                    - img [ref=e625]
+                    - generic [ref=e627]: 8h 20min
+                  - generic [ref=e628]:
+                    - img [ref=e630]
+                    - generic [ref=e632]: 4 Season
+            - listitem [ref=e633]:
+              - link "Trending Show 2 Duration 12h 23min Season 5 Season" [ref=e634] [cursor=pointer]:
+                - /url: /movie
+                - heading "Trending Show 2" [level=3] [ref=e635]
+                - generic [ref=e636]:
+                  - generic [ref=e637]:
+                    - img [ref=e639]
+                    - generic [ref=e641]: 12h 23min
+                  - generic [ref=e642]:
+                    - img [ref=e644]
+                    - generic [ref=e646]: 5 Season
+            - listitem [ref=e647]:
+              - link "Trending Show 3 Duration 14h 30min Season 3 Season" [ref=e648] [cursor=pointer]:
+                - /url: /movie
+                - heading "Trending Show 3" [level=3] [ref=e649]
+                - generic [ref=e650]:
+                  - generic [ref=e651]:
+                    - img [ref=e653]
+                    - generic [ref=e655]: 14h 30min
+                  - generic [ref=e656]:
+                    - img [ref=e658]
+                    - generic [ref=e660]: 3 Season
+            - listitem [ref=e661]:
+              - link "Trending Show 4 Duration 7h 40min Season 2 Season" [ref=e662] [cursor=pointer]:
+                - /url: /movie
+                - heading "Trending Show 4" [level=3] [ref=e663]
+                - generic [ref=e664]:
+                  - generic [ref=e665]:
+                    - img [ref=e667]
+                    - generic [ref=e669]: 7h 40min
+                  - generic [ref=e670]:
+                    - img [ref=e672]
+                    - generic [ref=e674]: 2 Season
+        - region "New Released Shows" [ref=e675]:
+          - generic [ref=e676]:
+            - heading "New Released Shows" [level=2] [ref=e678]
+            - generic [ref=e680]:
+              - button "Previous slide" [disabled]:
+                - generic:
+                  - img
+              - button "Next slide" [disabled]:
+                - generic:
+                  - img
+          - list [ref=e686]:
+            - listitem [ref=e687]:
+              - link "New Show 1 Duration 12h 23min Season 5 Season" [ref=e688] [cursor=pointer]:
+                - /url: /show
+                - heading "New Show 1" [level=3] [ref=e689]
+                - generic [ref=e690]:
+                  - generic [ref=e691]:
+                    - img [ref=e693]
+                    - generic [ref=e695]: 12h 23min
+                  - generic [ref=e696]:
+                    - img [ref=e698]
+                    - generic [ref=e700]: 5 Season
+            - listitem [ref=e701]:
+              - link "New Show 2 Duration 7h 40min Season 2 Season" [ref=e702] [cursor=pointer]:
+                - /url: /show
+                - heading "New Show 2" [level=3] [ref=e703]
+                - generic [ref=e704]:
+                  - generic [ref=e705]:
+                    - img [ref=e707]
+                    - generic [ref=e709]: 7h 40min
+                  - generic [ref=e710]:
+                    - img [ref=e712]
+                    - generic [ref=e714]: 2 Season
+            - listitem [ref=e715]:
+              - link "New Show 3 Duration 8h 20min Season 4 Season" [ref=e716] [cursor=pointer]:
+                - /url: /show
+                - heading "New Show 3" [level=3] [ref=e717]
+                - generic [ref=e718]:
+                  - generic [ref=e719]:
+                    - img [ref=e721]
+                    - generic [ref=e723]: 8h 20min
+                  - generic [ref=e724]:
+                    - img [ref=e726]
+                    - generic [ref=e728]: 4 Season
+            - listitem [ref=e729]:
+              - link "New Show 4 Duration 10h 30min Season 3 Season" [ref=e730] [cursor=pointer]:
+                - /url: /show
+                - heading "New Show 4" [level=3] [ref=e731]
+                - generic [ref=e732]:
+                  - generic [ref=e733]:
+                    - img [ref=e735]
+                    - generic [ref=e737]: 10h 30min
+                  - generic [ref=e738]:
+                    - img [ref=e740]
+                    - generic [ref=e742]: 3 Season
+        - region "Must - Watch Shows" [ref=e743]:
+          - generic [ref=e744]:
+            - heading "Must - Watch Shows" [level=2] [ref=e746]
+            - generic [ref=e748]:
+              - button "Previous slide" [disabled]:
+                - generic:
+                  - img
+              - button "Next slide" [disabled]:
+                - generic:
+                  - img
+          - list [ref=e754]:
+            - listitem [ref=e755]:
+              - 'link "Must Watch Show 1 Duration 7h 40min Rating: 4.3 out of 5" [ref=e756] [cursor=pointer]':
+                - /url: /movie
+                - heading "Must Watch Show 1" [level=3] [ref=e757]
+                - generic [ref=e758]:
+                  - generic [ref=e759]:
+                    - img [ref=e761]
+                    - generic [ref=e763]: 7h 40min
+                  - generic [ref=e768]: 12K
+            - listitem [ref=e769]:
+              - 'link "Must Watch Show 2 Duration 12h 23min Rating: 5 out of 5" [ref=e770] [cursor=pointer]':
+                - /url: /movie
+                - heading "Must Watch Show 2" [level=3] [ref=e771]
+                - generic [ref=e772]:
+                  - generic [ref=e773]:
+                    - img [ref=e775]
+                    - generic [ref=e777]: 12h 23min
+                  - generic [ref=e782]: 28K
+            - listitem [ref=e783]:
+              - 'link "Must Watch Show 3 Duration 10h 30min Rating: 5 out of 5" [ref=e784] [cursor=pointer]':
+                - /url: /movie
+                - heading "Must Watch Show 3" [level=3] [ref=e785]
+                - generic [ref=e786]:
+                  - generic [ref=e787]:
+                    - img [ref=e789]
+                    - generic [ref=e791]: 10h 30min
+                  - generic [ref=e796]: 2K
+            - listitem [ref=e797]:
+              - 'link "Must Watch Show 4 Duration 8h 20min Rating: 4.3 out of 5" [ref=e798] [cursor=pointer]':
+                - /url: /movie
+                - heading "Must Watch Show 4" [level=3] [ref=e799]
+                - generic [ref=e800]:
+                  - generic [ref=e801]:
+                    - img [ref=e803]
+                    - generic [ref=e805]: 8h 20min
+                  - generic [ref=e810]: 32K
+    - region "Start your free trial today" [ref=e811]:
+      - generic [ref=e812]:
+        - generic [ref=e813]:
+          - heading "Start your free trial today" [level=2] [ref=e814]
+          - paragraph [ref=e816]: This is a clear and concise call to action that encourages users to sign up for a free trial of StreamVibe.
+        - link "Start a free trial" [ref=e817] [cursor=pointer]:
+          - /url: /subscribtion
+          - generic [ref=e818]: Start a free trial
+  - contentinfo [ref=e819]:
+    - generic [ref=e820]:
+      - navigation [ref=e821]:
+        - generic [ref=e822]:
+          - link "Home" [ref=e823] [cursor=pointer]:
+            - /url: /
+          - list [ref=e824]:
+            - listitem [ref=e825]:
+              - link "Categories" [ref=e826] [cursor=pointer]:
+                - /url: /
+            - listitem [ref=e827]:
+              - link "Devices" [ref=e828] [cursor=pointer]:
+                - /url: /
+            - listitem [ref=e829]:
+              - link "Pricing" [ref=e830] [cursor=pointer]:
+                - /url: /
+            - listitem [ref=e831]:
+              - link "FAQ" [ref=e832] [cursor=pointer]:
+                - /url: /
+        - generic [ref=e833]:
+          - link "Movies" [ref=e834] [cursor=pointer]:
+            - /url: /
+          - list [ref=e835]:
+            - listitem [ref=e836]:
+              - link "Genres" [ref=e837] [cursor=pointer]:
+                - /url: /
+            - listitem [ref=e838]:
+              - link "Trending" [ref=e839] [cursor=pointer]:
+                - /url: /
+            - listitem [ref=e840]:
+              - link "New Releases" [ref=e841] [cursor=pointer]:
+                - /url: /
+            - listitem [ref=e842]:
+              - link "Popular" [ref=e843] [cursor=pointer]:
+                - /url: /
+        - generic [ref=e844]:
+          - link "Shows" [ref=e845] [cursor=pointer]:
+            - /url: /
+          - list [ref=e846]:
+            - listitem [ref=e847]:
+              - link "Genres" [ref=e848] [cursor=pointer]:
+                - /url: /
+            - listitem [ref=e849]:
+              - link "Trending" [ref=e850] [cursor=pointer]:
+                - /url: /
+            - listitem [ref=e851]:
+              - link "New Release" [ref=e852] [cursor=pointer]:
+                - /url: /
+            - listitem [ref=e853]:
+              - link "Popular" [ref=e854] [cursor=pointer]:
+                - /url: /
+        - generic [ref=e855]:
+          - link "Support" [ref=e856] [cursor=pointer]:
+            - /url: /
+          - list [ref=e857]:
+            - listitem [ref=e858]:
+              - link "Contact Us" [ref=e859] [cursor=pointer]:
+                - /url: /
+        - generic [ref=e860]:
+          - link "Subscription" [ref=e861] [cursor=pointer]:
+            - /url: /
+          - list [ref=e862]:
+            - listitem [ref=e863]:
+              - link "Plans" [ref=e864] [cursor=pointer]:
+                - /url: /
+            - listitem [ref=e865]:
+              - link "Features" [ref=e866] [cursor=pointer]:
+                - /url: /
+        - generic [ref=e867]:
+          - link "Connect With Us" [ref=e868] [cursor=pointer]:
+            - /url: /
+          - list [ref=e870]:
+            - listitem [ref=e871]:
+              - link "Facebook" [ref=e872] [cursor=pointer]:
+                - /url: /
+                - img [ref=e874]
+            - listitem [ref=e876]:
+              - link "Twitter" [ref=e877] [cursor=pointer]:
+                - /url: /
+                - img [ref=e879]
+            - listitem [ref=e881]:
+              - link "LinkedIn" [ref=e882] [cursor=pointer]:
+                - /url: /
+                - img [ref=e884]
+      - generic [ref=e886]:
+        - paragraph [ref=e887]:
+          - text: "@"
+          - time [ref=e888]: "2025"
+          - text: Streamvibe, All Rights Reserved
+        - generic [ref=e889]:
+          - link "Terms of Use" [ref=e890] [cursor=pointer]:
+            - /url: /
+          - link "Privacy Policy" [ref=e891] [cursor=pointer]:
+            - /url: /
+          - link "Cookie Policy" [ref=e892] [cursor=pointer]:
+            - /url: /

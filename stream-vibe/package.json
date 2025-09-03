@@ -7,6 +7,9 @@
     "build": "minista build",
     "preview": "minista preview"
   },
+  "engines": {
+    "node": ">=18.0.0"
+  },
   "prettier": {
     "semi": false
   },

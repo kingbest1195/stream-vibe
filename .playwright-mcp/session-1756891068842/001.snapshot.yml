@@ -1,0 +1,335 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - generic [ref=e3]:
+      - link "Home" [ref=e4] [cursor=pointer]:
+        - /url: /
+      - dialog [ref=e5]:
+        - navigation [ref=e6]:
+          - list [ref=e7]:
+            - listitem [ref=e8]:
+              - link "Home":
+                - /url: /
+            - listitem [ref=e9]:
+              - link "Movies & Shows" [ref=e10] [cursor=pointer]:
+                - /url: /movies
+            - listitem [ref=e11]:
+              - link "Support" [ref=e12] [cursor=pointer]:
+                - /url: /support
+            - listitem [ref=e13]:
+              - link "Subscriptions" [ref=e14] [cursor=pointer]:
+                - /url: /subscriptions
+        - generic [ref=e15]:
+          - button "Search" [ref=e16] [cursor=pointer]:
+            - img [ref=e18]
+          - button "Notifications" [ref=e20] [cursor=pointer]:
+            - img [ref=e22]
+  - main [ref=e24]:
+    - region "The Best Streaming Experience" [ref=e25]:
+      - button "Play video" [ref=e28] [cursor=pointer]
+      - generic [ref=e30]:
+        - heading "The Best Streaming Experience" [level=1] [ref=e31]
+        - paragraph [ref=e33]: StreamVibe is the best streaming experience for watching your favorite movies and shows on demand, anytime, anywhere. With StreamVibe, you can enjoy a wide variety of content, including the latest blockbusters, classic movies, popular TV shows, and more. You can also create your own watchlists, so you can easily find the content you want to watch.
+        - button "Start Watching Now" [ref=e34] [cursor=pointer]:
+          - img [ref=e36]
+          - generic [ref=e38]: Start Watching Now
+    - region "Explore our wide variety of categories" [ref=e39]:
+      - generic [ref=e40]:
+        - generic [ref=e41]:
+          - heading "Explore our wide variety of categories" [level=2] [ref=e42]
+          - paragraph [ref=e44]: Whether you're looking for a comedy to make you laugh, a drama to make you think, or a documentary to learn something new
+        - generic [ref=e46]:
+          - button "Previous slide" [disabled]:
+            - generic:
+              - img
+          - button "Next slide" [disabled]:
+            - generic:
+              - img
+      - list [ref=e52]:
+        - listitem [ref=e53]:
+          - link "Action" [ref=e54] [cursor=pointer]:
+            - /url: /movies
+            - generic [ref=e56]:
+              - heading "Action" [level=3] [ref=e57]:
+                - generic [ref=e58]: Action
+              - img [ref=e60]
+        - listitem [ref=e62]:
+          - link "Adventure" [ref=e63] [cursor=pointer]:
+            - /url: /movies
+            - generic [ref=e65]:
+              - heading "Adventure" [level=3] [ref=e66]:
+                - generic [ref=e67]: Adventure
+              - img [ref=e69]
+        - listitem [ref=e71]:
+          - link "Comedy" [ref=e72] [cursor=pointer]:
+            - /url: /movies
+            - generic [ref=e74]:
+              - heading "Comedy" [level=3] [ref=e75]:
+                - generic [ref=e76]: Comedy
+              - img [ref=e78]
+        - listitem [ref=e80]:
+          - link "Drama" [ref=e81] [cursor=pointer]:
+            - /url: /movies
+            - generic [ref=e83]:
+              - heading "Drama" [level=3] [ref=e84]:
+                - generic [ref=e85]: Drama
+              - img [ref=e87]
+        - listitem [ref=e89]:
+          - link "Horror" [ref=e90] [cursor=pointer]:
+            - /url: /movies
+            - generic [ref=e92]:
+              - heading "Horror" [level=3] [ref=e93]:
+                - generic [ref=e94]: Horror
+              - img [ref=e96]
+    - region "We provide you streaming experience across various devices." [ref=e98]:
+      - generic [ref=e100]:
+        - heading "We provide you streaming experience across various devices." [level=2] [ref=e101]
+        - paragraph [ref=e103]: With StreamVibe, you can enjoy your favorite movies and TV shows anytime, anywhere. Our platform is designed to be compatible with a wide range of devices, ensuring that you never miss a moment of entertainment.
+      - list [ref=e105]:
+        - listitem [ref=e106]:
+          - generic [ref=e107]:
+            - heading "Smartphones" [level=3] [ref=e110]
+            - paragraph [ref=e112]: StreamVibe is optimized for both Android and iOS smartphones. Download our app from the Google Play Store or the Apple App Store
+        - listitem [ref=e113]:
+          - generic [ref=e114]:
+            - heading "Tablet" [level=3] [ref=e117]
+            - paragraph [ref=e119]: StreamVibe is optimized for both Android and iOS smartphones. Download our app from the Google Play Store or the Apple App Store
+        - listitem [ref=e120]:
+          - generic [ref=e121]:
+            - heading "Smart TV" [level=3] [ref=e124]
+            - paragraph [ref=e126]: StreamVibe is optimized for both Android and iOS smartphones. Download our app from the Google Play Store or the Apple App Store
+        - listitem [ref=e127]:
+          - generic [ref=e128]:
+            - heading "Laptops" [level=3] [ref=e131]
+            - paragraph [ref=e133]: StreamVibe is optimized for both Android and iOS smartphones. Download our app from the Google Play Store or the Apple App Store
+        - listitem [ref=e134]:
+          - generic [ref=e135]:
+            - heading "Gaming Consoles" [level=3] [ref=e138]
+            - paragraph [ref=e140]: StreamVibe is optimized for both Android and iOS smartphones. Download our app from the Google Play Store or the Apple App Store
+        - listitem [ref=e141]:
+          - generic [ref=e142]:
+            - heading "VR Headsets" [level=3] [ref=e145]
+            - paragraph [ref=e147]: StreamVibe is optimized for both Android and iOS smartphones. Download our app from the Google Play Store or the Apple App Store
+    - region "Frequently Asked Questions" [ref=e148]:
+      - generic [ref=e149]:
+        - generic [ref=e150]:
+          - heading "Frequently Asked Questions" [level=2] [ref=e151]
+          - paragraph [ref=e153]: Got questions? We've got answers! Check out our FAQ section to find answers to the most common questions about StreamVibe.
+        - link "Ask a question" [ref=e155] [cursor=pointer]:
+          - /url: /support
+          - generic [ref=e156]: Ask a question
+      - list [ref=e158]:
+        - listitem [ref=e159]:
+          - generic [ref=e160]:
+            - group [ref=e161]:
+              - heading "What is StreamVibe?" [level=3] [ref=e163] [cursor=pointer]:
+                - term [ref=e164]: What is StreamVibe?
+            - definition [ref=e165]:
+              - paragraph [ref=e168]: StreamVibe is a modern streaming service offering a wide selection of movies, TV shows, and original content for on-demand viewing. The platform allows users to enjoy their favorite content in high quality across various devices.
+        - listitem [ref=e169]:
+          - generic [ref=e170]:
+            - group [ref=e171]:
+              - heading "How much does StreamVibe cost?" [level=3] [ref=e173] [cursor=pointer]:
+                - term [ref=e174]: How much does StreamVibe cost?
+            - definition:
+              - paragraph [ref=e176]: StreamVibe offers several pricing plans, starting from a basic plan at $9.99 per month to a premium plan at $19.99 per month. The basic plan includes access to the core content library, while the premium plan provides access to exclusive content, multi-device simultaneous streaming, and downloads for offline viewing.
+        - listitem [ref=e177]:
+          - generic [ref=e178]:
+            - group [ref=e179]:
+              - heading "What content is available on StreamVibe?" [level=3] [ref=e181] [cursor=pointer]:
+                - term [ref=e182]: What content is available on StreamVibe?
+            - definition:
+              - paragraph [ref=e184]: StreamVibe offers thousands of movies and TV shows across various genres, including dramas, comedies, action films, documentaries, and children's content. The service also features exclusive original shows and movies that can only be found on StreamVibe.
+        - listitem [ref=e185]:
+          - generic [ref=e186]:
+            - group [ref=e187]:
+              - heading "How can I watch StreamVibe?" [level=3] [ref=e189] [cursor=pointer]:
+                - term [ref=e190]: How can I watch StreamVibe?
+            - definition:
+              - paragraph [ref=e192]: StreamVibe is available on multiple devices, including smartphones (iOS and Android), tablets, computers (via web browser), smart TVs, Apple TV, Roku, Fire TV, and gaming consoles. The StreamVibe app can be downloaded from the respective app stores.
+        - listitem [ref=e193]:
+          - generic [ref=e194]:
+            - group [ref=e195]:
+              - heading "How do I sign up for StreamVibe?" [level=3] [ref=e197] [cursor=pointer]:
+                - term [ref=e198]: How do I sign up for StreamVibe?
+            - definition:
+              - paragraph [ref=e200]: To sign up for StreamVibe, visit the official website streamvibe.com or download the app on your device. Choose a suitable subscription plan, create an account by providing your email and password, and then enter your payment details. Once registration is complete, you'll immediately have access to the entire content library.
+        - listitem [ref=e201]:
+          - generic [ref=e202]:
+            - group [ref=e203]:
+              - heading "What is the StreamVibe free trial?" [level=3] [ref=e205] [cursor=pointer]:
+                - term [ref=e206]: What is the StreamVibe free trial?
+            - definition:
+              - paragraph [ref=e208]: StreamVibe offers a 30-day free trial for new users. During this period, you get full access to all features of your chosen plan. You can cancel your subscription anytime before the trial period ends, and you won't be charged.
+        - listitem [ref=e209]:
+          - generic [ref=e210]:
+            - group [ref=e211]:
+              - heading "How do I contact StreamVibe customer support?" [level=3] [ref=e213] [cursor=pointer]:
+                - term [ref=e214]: How do I contact StreamVibe customer support?
+            - definition:
+              - paragraph [ref=e216]: StreamVibe customer support is available 24/7. You can contact them via support chat on the website or in the app, by email at support@streamvibe.com, or by phone at 1-800-STREAM-VB. An extensive FAQ section and knowledge base are also available on the website.
+        - listitem [ref=e217]:
+          - generic [ref=e218]:
+            - group [ref=e219]:
+              - heading "What are the StreamVibe payment methods?" [level=3] [ref=e221] [cursor=pointer]:
+                - term [ref=e222]: What are the StreamVibe payment methods?
+            - definition:
+              - paragraph [ref=e224]: StreamVibe accepts most major credit and debit cards (Visa, MasterCard, American Express, Discover), PayPal, StreamVibe gift cards, as well as Apple Pay and Google Pay on compatible devices. In some regions, payment through mobile carriers is also available.
+    - region "Choose the plan that's fits you" [ref=e225]:
+      - generic [ref=e226]:
+        - generic [ref=e227]:
+          - heading "Choose the plan that's fits you" [level=2] [ref=e228]
+          - paragraph [ref=e230]: Join StreamVibe and select from our flexible subscription options tailored to suit your viewing preferences. Get ready for non-stop entertainment!
+        - tablist "plans-tabs" [ref=e232]:
+          - heading "plans-tabs" [level=3] [ref=e233]
+          - tab "Monthly" [selected]
+          - tab "Yearly" [ref=e234] [cursor=pointer]
+      - list [ref=e239]:
+        - listitem [ref=e240]:
+          - generic [ref=e241]:
+            - generic [ref=e242]:
+              - heading "Basic Plan" [level=3] [ref=e243]
+              - paragraph [ref=e245]: Enjoy an extensive library of movies and shows, featuring a range of content, including recently released titles.
+            - generic [ref=e246]:
+              - generic [ref=e247]: $9.99
+              - generic [ref=e248]: /month
+            - generic [ref=e249]:
+              - link "Start free trial" [ref=e250] [cursor=pointer]:
+                - /url: /subscribtion
+                - generic [ref=e251]: Start free trial
+              - link "Choose plan" [ref=e252] [cursor=pointer]:
+                - /url: /subscribtion
+                - generic [ref=e253]: Choose plan
+        - listitem [ref=e254]:
+          - generic [ref=e255]:
+            - generic [ref=e256]:
+              - heading "Standard Plan" [level=3] [ref=e257]
+              - paragraph [ref=e259]: Access to a wider selection of movies and shows, including most new releases and exclusive content
+            - generic [ref=e260]:
+              - generic [ref=e261]: $12.99
+              - generic [ref=e262]: /month
+            - generic [ref=e263]:
+              - link "Start free trial" [ref=e264] [cursor=pointer]:
+                - /url: /subscribtion
+                - generic [ref=e265]: Start free trial
+              - link "Choose plan" [ref=e266] [cursor=pointer]:
+                - /url: /subscribtion
+                - generic [ref=e267]: Choose plan
+        - listitem [ref=e268]:
+          - generic [ref=e269]:
+            - generic [ref=e270]:
+              - heading "Premium Plan" [level=3] [ref=e271]
+              - paragraph [ref=e273]: Access to a widest selection of movies and shows, including all new releases and Offline Viewing
+            - generic [ref=e274]:
+              - generic [ref=e275]: $14.99
+              - generic [ref=e276]: /month
+            - generic [ref=e277]:
+              - link "Start free trial" [ref=e278] [cursor=pointer]:
+                - /url: /subscribtion
+                - generic [ref=e279]: Start free trial
+              - link "Choose plan" [ref=e280] [cursor=pointer]:
+                - /url: /subscribtion
+                - generic [ref=e281]: Choose plan
+    - region "Start your free trial today" [ref=e282]:
+      - generic [ref=e283]:
+        - generic [ref=e284]:
+          - heading "Start your free trial today" [level=2] [ref=e285]
+          - paragraph [ref=e287]: This is a clear and concise call to action that encourages users to sign up for a free trial of StreamVibe.
+        - link "Start a free trial" [ref=e288] [cursor=pointer]:
+          - /url: /subscribtion
+          - generic [ref=e289]: Start a free trial
+  - contentinfo [ref=e290]:
+    - generic [ref=e291]:
+      - navigation [ref=e292]:
+        - generic [ref=e293]:
+          - link "Home" [ref=e294] [cursor=pointer]:
+            - /url: /
+          - list [ref=e295]:
+            - listitem [ref=e296]:
+              - link "Categories" [ref=e297] [cursor=pointer]:
+                - /url: /
+            - listitem [ref=e298]:
+              - link "Devices" [ref=e299] [cursor=pointer]:
+                - /url: /
+            - listitem [ref=e300]:
+              - link "Pricing" [ref=e301] [cursor=pointer]:
+                - /url: /
+            - listitem [ref=e302]:
+              - link "FAQ" [ref=e303] [cursor=pointer]:
+                - /url: /
+        - generic [ref=e304]:
+          - link "Movies" [ref=e305] [cursor=pointer]:
+            - /url: /
+          - list [ref=e306]:
+            - listitem [ref=e307]:
+              - link "Genres" [ref=e308] [cursor=pointer]:
+                - /url: /
+            - listitem [ref=e309]:
+              - link "Trending" [ref=e310] [cursor=pointer]:
+                - /url: /
+            - listitem [ref=e311]:
+              - link "New Releases" [ref=e312] [cursor=pointer]:
+                - /url: /
+            - listitem [ref=e313]:
+              - link "Popular" [ref=e314] [cursor=pointer]:
+                - /url: /
+        - generic [ref=e315]:
+          - link "Shows" [ref=e316] [cursor=pointer]:
+            - /url: /
+          - list [ref=e317]:
+            - listitem [ref=e318]:
+              - link "Genres" [ref=e319] [cursor=pointer]:
+                - /url: /
+            - listitem [ref=e320]:
+              - link "Trending" [ref=e321] [cursor=pointer]:
+                - /url: /
+            - listitem [ref=e322]:
+              - link "New Release" [ref=e323] [cursor=pointer]:
+                - /url: /
+            - listitem [ref=e324]:
+              - link "Popular" [ref=e325] [cursor=pointer]:
+                - /url: /
+        - generic [ref=e326]:
+          - link "Support" [ref=e327] [cursor=pointer]:
+            - /url: /
+          - list [ref=e328]:
+            - listitem [ref=e329]:
+              - link "Contact Us" [ref=e330] [cursor=pointer]:
+                - /url: /
+        - generic [ref=e331]:
+          - link "Subscription" [ref=e332] [cursor=pointer]:
+            - /url: /
+          - list [ref=e333]:
+            - listitem [ref=e334]:
+              - link "Plans" [ref=e335] [cursor=pointer]:
+                - /url: /
+            - listitem [ref=e336]:
+              - link "Features" [ref=e337] [cursor=pointer]:
+                - /url: /
+        - generic [ref=e338]:
+          - link "Connect With Us" [ref=e339] [cursor=pointer]:
+            - /url: /
+          - list [ref=e341]:
+            - listitem [ref=e342]:
+              - link "Facebook" [ref=e343] [cursor=pointer]:
+                - /url: /
+                - img [ref=e345]
+            - listitem [ref=e347]:
+              - link "Twitter" [ref=e348] [cursor=pointer]:
+                - /url: /
+                - img [ref=e350]
+            - listitem [ref=e352]:
+              - link "LinkedIn" [ref=e353] [cursor=pointer]:
+                - /url: /
+                - img [ref=e355]
+      - generic [ref=e357]:
+        - paragraph [ref=e358]:
+          - text: "@"
+          - time [ref=e359]: "2025"
+          - text: Streamvibe, All Rights Reserved
+        - generic [ref=e360]:
+          - link "Terms of Use" [ref=e361] [cursor=pointer]:
+            - /url: /
+          - link "Privacy Policy" [ref=e362] [cursor=pointer]:
+            - /url: /
+          - link "Cookie Policy" [ref=e363] [cursor=pointer]:
+            - /url: /

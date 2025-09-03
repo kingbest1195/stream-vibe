@@ -1,0 +1,86 @@
+[build]
+  # Директория для публикации
+  publish = "dist"
+  
+  # Команда сборки
+  command = "npm run build"
+
+[build.environment]
+  NODE_VERSION = "18"
+
+# Настройки редиректов для SPA
+[[redirects]]
+  from = "/movies"
+  to = "/movies.html"
+  status = 200
+
+[[redirects]]
+  from = "/support"
+  to = "/support.html"
+  status = 200
+
+[[redirects]]
+  from = "/subscriptions"
+  to = "/subscriptions.html"
+  status = 200
+
+[[redirects]]
+  from = "/movie"
+  to = "/movie.html"
+  status = 200
+
+[[redirects]]
+  from = "/show"
+  to = "/show.html"
+  status = 200
+
+# Fallback для всех остальных маршрутов
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 404
+
+# Настройки заголовков для лучшей производительности
+[[headers]]
+  for = "/*"
+  [headers.values]
+    X-Frame-Options = "DENY"
+    X-XSS-Protection = "1; mode=block"
+    X-Content-Type-Options = "nosniff"
+    Referrer-Policy = "strict-origin-when-cross-origin"
+
+# Кэширование статических ресурсов
+[[headers]]
+  for = "/assets/*"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"
+
+[[headers]]
+  for = "/*.js"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"
+
+[[headers]]
+  for = "/*.css"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"
+
+[[headers]]
+  for = "/*.svg"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"
+
+[[headers]]
+  for = "/*.png"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"
+
+[[headers]]
+  for = "/*.jpg"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"
+
+[[headers]]
+  for = "/*.webp"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"
